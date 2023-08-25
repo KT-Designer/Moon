@@ -1,0 +1,394 @@
+body {
+    background-color: #004657 !important;
+
+}
+
+/* body,
+html {
+    overflow-x: hidden;
+} */
+
+a {
+    text-decoration: none !important;
+}
+
+
+/* 浮動主選單_手機 */
+.menu_MB {
+    width: 100%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    overflow-x: auto;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.menu_MB ul {
+    display: flex;
+}
+
+
+.menu_MB ul li a {
+    display: inline-block;
+    margin: 0px 2px;
+    padding: 10px 20.5px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+.menu_MB ul li a:hover {
+    background-color: #C1852F;
+    color: #000000;
+}
+
+
+
+
+
+
+
+/* 主視覺 */
+
+.kv_pc {
+    background-image: linear-gradient(0deg, #00AFBB 0%, #0098A5 9.77%, #00707E 29.30%, #005060 48.48%, #00394A 66.99%, #002C3D 84.50%, #002739 100%);
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+.kv_pc .kv_swiper {
+    width: 100%;
+    max-width: 456px;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+}
+
+
+
+
+
+
+/* 滿額禮 */
+
+.gift .row {
+    width: 100%;
+    max-width: 1015px;
+    margin: auto;
+}
+
+
+
+
+
+/* 新品推薦 */
+.new {
+    margin: auto;
+
+}
+
+.new .bg {
+    width: 100%;
+    max-width: 1015px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+
+
+.new .container {
+    position: relative;
+    max-width: 974px;
+    padding-top: 12%;
+
+}
+
+
+/* 熱門經典/熱銷禮盒 */
+.hot {
+    margin-top: 100px;
+
+}
+
+.hot .container {
+    margin: auto !important;
+}
+
+.hot .container .row {
+    max-width: 1050px;
+}
+
+/* 熱門經典/熱銷禮盒_輪播 */
+.hot .left {
+    position: relative;
+}
+
+.hot .hot1_swiper {
+    width: 100%;
+    max-width: 233px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+
+.hot .right {
+    position: relative;
+}
+
+
+.hot .hot2_swiper {
+    max-width: 305px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.dot {
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* 冠軍太陽餅 */
+
+.No1,
+.cake {
+    margin: 66px 0px;
+}
+
+.No1 .all {
+    width: 100%;
+    max-width: 924px;
+    position: relative;
+    padding-top: 13.4%;
+}
+
+.No1 .all h6 {
+    font-size: 16px;
+}
+
+.mycard {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 3px 9px 0px 0px rgba(0, 0, 0, 0.39);
+}
+
+.mycard .text {
+    padding: 18px 0px 16px 0px;
+}
+
+.mycard .money .price {
+    font-size: 12px;
+    text-decoration: line-through;
+
+
+}
+
+.mycard .money .sale {
+    font-size: 20px;
+    color: #910303;
+    font-weight: 800;
+}
+
+
+.mycard .buy {
+    background-color: #910303;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 4px 11px;
+    max-width: 130px;
+    border-radius: 50px;
+    margin: auto;
+}
+
+
+.mycard .buy {
+    margin-top: 10px;
+}
+
+
+.No1 .bg {
+    width: 100%;
+    max-width: 1015px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+/* 首圖陰影 */
+.title img {
+    border-radius: 12px;
+    box-shadow: 3px 9px 0px 0px rgba(0, 0, 0, 0.39);
+}
+
+/* 酥餅系列 */
+.cake {
+    padding-top: 100px;
+}
+
+
+
+.cake .container {
+    width: 100%;
+    max-width: 924px;
+    position: relative;
+    padding-top: 13.4%;
+}
+
+
+
+.cake .bg {
+    width: 100%;
+    max-width: 1015px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+/* footer */
+footer p {
+    color: #FFFFFF;
+    padding: 10px;
+    background-color: #C1852F;
+    box-shadow: 0px 1px 40px 0px rgba(0, 0, 0, 0.9);
+
+}
+
+
+@media screen and (max-width:1200px) {
+
+    /* 主視覺 */
+    .kv_pc .pic {
+        width: 100%;
+    }
+
+
+
+
+
+    /* 冠軍太陽餅 */
+    .No1 .all {
+        width: 98%;
+        padding-top: 15%;
+    }
+
+
+    /* 酥餅系列 */
+    .cake .container {
+        width: 98%;
+        padding-top: 18%;
+    }
+}
+
+
+
+
+@media screen and (max-width:992px) {
+
+    /* 熱門經典/熱銷禮盒  */
+    .hot .hot1_swiper {
+        width: 48%;
+    }
+
+    .hot .hot2_swiper {
+        width: 56%;
+    }
+
+    /* 主視覺_MB */
+    .kv_mb .kv_swiper {
+        width: 45%;
+
+
+    }
+
+    /* 主視覺_MB */
+    .kv_mb {
+        position: relative;
+    }
+
+    .kv_mb .pic {
+        width: 100%;
+    }
+
+    .kv_mb .kv_swiper {
+        width: 100%;
+        max-width: 420px;
+        position: absolute;
+        left: 32%;
+        top: 50%;
+    }
+
+
+
+    /* 冠軍太陽餅 */
+    .No1,
+    .cake {
+        margin: 2vw 0px;
+    }
+
+    /* 新品推薦 */
+    .new .container {
+        padding-top: 18%;
+    }
+}
+
+@media screen and (max-width:768px) {}
+
+
+
+
+@media screen and (max-width:576px) {
+
+    /* 主視覺_MB */
+    .kv_mb .kv_swiper {
+        width: 48%;
+    }
+
+
+    /* 新品推薦 */
+    .new .container {
+        padding-top: 30%;
+    }
+
+
+
+
+
+    /* 冠軍太陽餅 */
+    .No1 .all {
+        padding-top: 27%;
+    }
+
+
+    /* 酥餅系列 */
+    .cake .container {
+        padding-top: 30%;
+    }
+
+
+}
+
+
+@media screen and (max-width:375px) {}
