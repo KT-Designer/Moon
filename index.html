@@ -16,6 +16,31 @@
 
 <body>
 
+
+    <!-- 置頂鍵 -->
+    <div id="scrolltop" class="d-block d-md-none">▲</div>
+
+
+    <!-- 浮動主選單_PC -->
+    <div class="open d-none d-md-block">商品選單</div>
+
+    <nav class="menu_pc text-center d-none d-md-block">
+        <div class="close">
+            <p>✖</p>
+        </div>
+        <img src="./images/menu.png" alt="">
+        <ul>
+            <li class="anchor-link"><a href="#gift">幸福有禮</a></li>
+            <li class="anchor-link"><a href="#new">新品推薦</a></li>
+            <li class="anchor-link"><a href="#hot">熱銷商品</a></li>
+            <li class="anchor-link"><a href="#No1">冠軍太陽餅</a></li>
+            <li class="anchor-link"><a href="#cake">酥餅系列</a></li>
+            <li class="anchor-link"><a href="#kv">Top</a></li>
+        </ul>
+    </nav>
+
+
+
     <!-- 浮動主選單_手機 -->
     <nav class="menu_MB position-sticky top-0 d-block d-md-none">
         <ul class="ul list-unstyled m-0">
@@ -37,7 +62,21 @@
 
 
     <!-- 主視覺_PC -->
-    <div class="kv_pc d-none d-lg-block text-center">
+
+
+    <img class="lantern" src="./images/lantern.png" alt="">
+
+    <div class="leaf_R d-none d-lg-block">
+        <img src="./images/leaf_R.png" alt="">
+    </div>
+
+    <div class="leaf_L d-none d-lg-block">
+        <img src="./images/leaf_L.png" alt="">
+    </div>
+
+
+    <div class="kv_pc d-none d-lg-block text-center" id="kv">
+
         <img src="./images/kv_pc.png" alt="" class="pic img-fluid">
         <!-- Swiper -->
         <div class="kv_swiper">
@@ -222,7 +261,9 @@
                 <div class="row g-2">
                     <div class="col-6 col-md-4">
                         <div class="mycard m-0">
-                            <img src="./images/No1_1.png" alt="" class="img-fluid w-100">
+                            <div class="pic">
+                                <img src="./images/No1_1.png" alt="" class="img-fluid w-100">
+                            </div>
                             <div class="text text-center">
                                 <h6>原味太陽餅(6入)</h6>
                                 <div class="container money d-flex justify-content-center align-items-end py-0">
@@ -238,7 +279,9 @@
 
                     <div class="col-6 col-md-4">
                         <div class="mycard m-0">
-                            <img src="./images/No1_2.png" alt="" class="img-fluid w-100">
+                            <div class="pic">
+                                <img src="./images/No1_2.png" alt="" class="img-fluid w-100">
+                            </div>
                             <div class="text text-center">
                                 <h6>鐵觀音太陽餅(6入)</h6>
                                 <div class="container money d-flex justify-content-center align-items-end py-0">
@@ -254,7 +297,9 @@
 
                     <div class="col-6 col-md-4">
                         <div class="mycard m-0">
-                            <img src="./images/No1_3.png" alt="" class="img-fluid w-100">
+                            <div class="pic">
+                                <img src="./images/No1_3.png" alt="" class="img-fluid w-100">
+                            </div>
                             <div class="text text-center">
                                 <h6>蜂蜜太陽餅(6入)</h6>
                                 <div class="container money d-flex justify-content-center align-items-end py-0">
@@ -270,7 +315,9 @@
 
                     <div class="col-6 col-md-4">
                         <div class="mycard m-0">
-                            <img src="./images/No1_4.png" alt="" class="img-fluid w-100">
+                            <div class="pic">
+                                <img src="./images/No1_4.png" alt="" class="img-fluid w-100">
+                            </div>
                             <div class="text text-center">
                                 <h6>玫瑰太陽餅(6入)</h6>
                                 <div class="container money d-flex justify-content-center align-items-end py-0">
@@ -286,7 +333,9 @@
 
                     <div class="col-6 col-md-4">
                         <div class="mycard m-0">
-                            <img src="./images/No1_5.png" alt="" class="img-fluid w-100">
+                            <div class="pic">
+                                <img src="./images/No1_5.png" alt="" class="img-fluid w-100">
+                            </div>
                             <div class="text text-center">
                                 <h6>特濃抹茶太陽餅(6入)</h6>
                                 <div class="container money d-flex justify-content-center align-items-end py-0">
@@ -302,7 +351,9 @@
 
                     <div class="col-6 col-md-4">
                         <div class="mycard m-0">
-                            <img src="./images/No1_6.png" alt="" class="img-fluid w-100">
+                            <div class="pic">
+                                <img src="./images/No1_6.png" alt="" class="img-fluid w-100">
+                            </div>
                             <div class="text text-center">
                                 <h6>起士太陽餅(6入)</h6>
                                 <div class="container money d-flex justify-content-center align-items-end py-0">
@@ -335,11 +386,13 @@
             <div class="row px-2">
                 <div class="col-6 col-md-3 p-1">
                     <div class="mycard m-0">
-                        <img src="./images/cake1.png" alt="" class="img-fluid w-100">
+                        <div class="pic">
+                            <img src="./images/cake1.png" alt="" class="img-fluid w-100">
+                        </div>
                         <div class="text text-center">
-                            <h6>蜂蜜太陽餅6入</h6>
+                            <h6>原味蝴蝶酥(10入)</h6>
                             <div class="container money d-flex justify-content-center align-items-end py-0">
-                                <div class="price">$450</div>
+                                <div class="price">$430</div>
                                 <div class="sale">$360</div>
                             </div>
                             <a href="#" target="_blank">
@@ -351,30 +404,88 @@
 
                 <div class="col-6 col-md-3 p-1">
                     <div class="mycard m-0">
-                        <img src="./images/cake2.png" alt="" class="img-fluid w-100">
+                        <div class="pic">
+                            <img src="./images/cake2.png" alt="" class="img-fluid w-100">
+                        </div>
                         <div class="text text-center">
-                            <h6>起士太陽餅(6入)</h6>
+                            <h6>椒辛蝴蝶酥(10入)</h6>
+                            <div class="container money d-flex justify-content-center align-items-end py-0">
+                                <div class="price">$430</div>
+                                <div class="sale">$360</div>
+                            </div>
+                            <a href="#" target="_blank">
+                                <div class="buy">立即預訂</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-6 col-md-3 p-1">
+                    <div class="mycard m-0">
+                        <div class="pic">
+                            <img src="./images/cake3.png" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="text text-center">
+                            <h6>餡金流蛋黃酥(6入)</h6>
+                            <div class="container money d-flex justify-content-center align-items-end py-0">
+                                <div class="price">$490</div>
+                                <div class="sale">$409</div>
+                            </div>
+                            <a href="#" target="_blank">
+                                <div class="buy">立即預訂</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 p-1">
+                    <div class="mycard m-0">
+                        <div class="pic">
+                            <img src="./images/cake4.png" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="text text-center">
+                            <h6>傳統蛋黃酥(9入)</h6>
+                            <div class="container money d-flex justify-content-center align-items-end py-0">
+                                <div class="price">$900</div>
+                                <div class="sale">$609</div>
+                            </div>
+                            <a href="#" target="_blank">
+                                <div class="buy">立即預訂</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 p-1">
+                    <div class="mycard m-0">
+                        <div class="pic">
+                            <img src="./images/cake5.png" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="text text-center">
+                            <h6>土鳳梨酥(10入)</h6>
+                            <div class="container money d-flex justify-content-center align-items-end py-0">
+                                <div class="price">$699</div>
+                                <div class="sale">$450</div>
+                            </div>
+                            <a href="#" target="_blank">
+                                <div class="buy">立即預訂</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 p-1">
+                    <div class="mycard m-0">
+                        <div class="pic">
+                            <img src="./images/cake6.png" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="text text-center">
+                            <h6>經典大甲芋頭酥(9入)</h6>
                             <div class="container money d-flex justify-content-center align-items-end py-0">
                                 <div class="price">$514</div>
-                                <div class="sale">$399</div>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即預訂</div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="col-6 col-md-3 p-1">
-                    <div class="mycard m-0">
-                        <img src="./images/cake3.png" alt="" class="img-fluid w-100">
-                        <div class="text text-center">
-                            <h6>蜂蜜太陽餅6入</h6>
-                            <div class="container money d-flex justify-content-center align-items-end py-0">
-                                <div class="price">$450</div>
-                                <div class="sale">$360</div>
+                                <div class="sale">$450</div>
                             </div>
                             <a href="#" target="_blank">
                                 <div class="buy">立即預訂</div>
@@ -385,12 +496,14 @@
 
                 <div class="col-6 col-md-3 p-1">
                     <div class="mycard m-0">
-                        <img src="./images/cake4.png" alt="" class="img-fluid w-100">
+                        <div class="pic">
+                            <img src="./images/cake7.png" alt="" class="img-fluid w-100">
+                        </div>
                         <div class="text text-center">
-                            <h6>蜂蜜太陽餅6入</h6>
+                            <h6>金沙小月餅(9入)</h6>
                             <div class="container money d-flex justify-content-center align-items-end py-0">
-                                <div class="price">$450</div>
-                                <div class="sale">$360</div>
+                                <div class="price">$609</div>
+                                <div class="sale">$900</div>
                             </div>
                             <a href="#" target="_blank">
                                 <div class="buy">立即預訂</div>
@@ -401,60 +514,14 @@
 
                 <div class="col-6 col-md-3 p-1">
                     <div class="mycard m-0">
-                        <img src="./images/cake5.png" alt="" class="img-fluid w-100">
-                        <div class="text text-center">
-                            <h6>蜂蜜太陽餅6入</h6>
-                            <div class="container money d-flex justify-content-center align-items-end py-0">
-                                <div class="price">$450</div>
-                                <div class="sale">$360</div>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即預訂</div>
-                            </a>
+                        <div class="pic">
+                            <img src="./images/cake8.png" alt="" class="img-fluid w-100">
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-3 p-1">
-                    <div class="mycard m-0">
-                        <img src="./images/cake6.png" alt="" class="img-fluid w-100">
                         <div class="text text-center">
-                            <h6>蜂蜜太陽餅6入</h6>
+                            <h6>抹香麻糬月餅(9入)</h6>
                             <div class="container money d-flex justify-content-center align-items-end py-0">
-                                <div class="price">$450</div>
-                                <div class="sale">$360</div>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即預訂</div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-3 p-1">
-                    <div class="mycard m-0">
-                        <img src="./images/cake7.png" alt="" class="img-fluid w-100">
-                        <div class="text text-center">
-                            <h6>蜂蜜太陽餅6入</h6>
-                            <div class="container money d-flex justify-content-center align-items-end py-0">
-                                <div class="price">$450</div>
-                                <div class="sale">$360</div>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即預訂</div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-3 p-1">
-                    <div class="mycard m-0">
-                        <img src="./images/cake8.png" alt="" class="img-fluid w-100">
-                        <div class="text text-center">
-                            <h6>蜂蜜太陽餅6入</h6>
-                            <div class="container money d-flex justify-content-center align-items-end py-0">
-                                <div class="price">$450</div>
-                                <div class="sale">$360</div>
+                                <div class="price">$900</div>
+                                <div class="sale">$609</div>
                             </div>
                             <a href="#" target="_blank">
                                 <div class="buy">立即預訂</div>
@@ -475,9 +542,8 @@
     </footer>
 
 
-
-
-
+    <!-- 螢火蟲 -->
+    <canvas id="fireflies"></canvas>
 
 
 
@@ -513,9 +579,16 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
 
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- JS -->
+    <script src="./js/all.js"></script>
+
     <!-- 輪播 -->
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js"></script>
+
 </body>
 
 </html>
