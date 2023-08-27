@@ -4,8 +4,7 @@
 
 body {
     background-color: #004657 !important;
-    font-family: 'Noto Sans TC', sans-serif !important;
-    font-family: 'Roboto', sans-serif !important;
+
 }
 
 
@@ -493,6 +492,8 @@ footer p {
     padding: 10px;
     background-color: #C1852F;
     box-shadow: 0px 1px 40px 0px rgba(0, 0, 0, 0.9);
+    font-family: 'Noto Sans TC';
+    font-weight: 500;
 
 }
 
