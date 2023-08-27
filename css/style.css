@@ -204,7 +204,7 @@ a {
 
 .leaf_R img {
     width: 100%;
-    max-width: 260px;
+    max-width: 250px;
 }
 
 
@@ -501,8 +501,12 @@ footer p {
 
     /* 主視覺 */
 
+    .leaf_R {
+        right: 8%;
+    }
+
     .leaf_R img {
-        width: 80%;
+        max-width: 190px;
 
     }
 
