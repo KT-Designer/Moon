@@ -363,7 +363,7 @@ a {
 
 }
 
-.No1 .all {
+.No1 .first {
     padding-top: 12.4%;
 }
 
@@ -455,7 +455,7 @@ a {
 }
 
 /* 首圖陰影 */
-.all .title,
+.No1 .first .title,
 .title img {
     border-radius: 12px;
     box-shadow: 3px 9px 0px 0px rgba(0, 0, 0, 0.39);
@@ -664,7 +664,7 @@ footer p {
 
 
     /* 冠軍太陽餅 */
-    .No1 .all {
+    .No1 .first {
         padding-top: 28%;
     }
 
