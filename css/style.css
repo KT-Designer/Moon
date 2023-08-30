@@ -7,12 +7,12 @@ body {
 
 }
 
+.test .container {
+    width: 100%;
+    max-width: 924px;
+}
 
 
-/* body,
-html {
-    overflow-x: hidden;
-} */
 
 a {
     text-decoration: none !important;
@@ -356,11 +356,15 @@ a {
     margin: 66px 0px;
 }
 
-.No1 .all {
+.No1 .container {
     width: 100%;
     max-width: 924px;
     position: relative;
-    padding-top: 13.4%;
+
+}
+
+.No1 .title {
+    padding-top: 12.4%;
 }
 
 .No1 .all h6,
@@ -659,8 +663,8 @@ footer p {
 
 
     /* 冠軍太陽餅 */
-    .No1 .all {
-        padding-top: 27%;
+    .No1 .title {
+        padding-top: 28%;
     }
 
 
