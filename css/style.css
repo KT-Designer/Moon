@@ -220,7 +220,7 @@ a {
     position: fixed;
     right: 15%;
     animation: lantern 2s infinite alternate ease-in-out;
-    z-index: 1;
+    z-index: 2;
 }
 
 @keyframes lantern {
@@ -456,7 +456,7 @@ a {
 
 /* 首圖陰影 */
 .No1 .first .title,
-.title img {
+.cake .title {
     border-radius: 12px;
     box-shadow: 3px 9px 0px 0px rgba(0, 0, 0, 0.39);
 }
