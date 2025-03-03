@@ -240,11 +240,10 @@ a {
 
 
 .kv_pc .kv_swiper {
-    width: 100%;
-    max-width: 456px;
+    width: 31%;
     position: absolute;
     left: 35%;
-    top: 50%;
+    bottom: 1%;
 }
 
 
@@ -499,6 +498,13 @@ footer p {
 }
 
 
+
+
+
+
+
+
+
 @media screen and (max-width:1200px) {
 
     /* 主視覺 */
@@ -516,6 +522,7 @@ footer p {
         position: absolute;
 
     }
+
 
 
 
